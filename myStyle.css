@@ -62,19 +62,26 @@ text-align: left;
 text-decoration: none;
 color: rgb(219, 219, 219);
 }
+
+/* navbar */
 .navbar{
-padding:2%;
-background-color: white;
+ padding-right:2%;
+ padding-bottom:0%;
+ padding-top:0%;
+ padding-left:2%;
+ background-color: white; 
 }
+
+/* footer */
 .footer{
-text-align:right;
-position:fixed;
-width:100%;
-bottom:0;
-right:0;
-padding-right:2%;
-padding-top:2%;
-background-color: #a51080;
+ position:fixed;
+ width:100%;
+ bottom:0;
+ right:0;
+ padding-right:2%;
+ padding-bottom:0%;
+ padding-top:2%;
+ background-color: #a51080;
 }
 
 @font-face {
@@ -99,4 +106,16 @@ background-color: #a51080;
 	min-height:50px;
 	justify-content:space-between;	
 	text-align: center; 
+}
+
+.org-box {
+    cursor: pointer;
+    background-color: #ff2ecc;
+    color: white;
+    padding: 10px;
+}
+
+.org-box:hover {
+    background-color: #dcf763;
+	color: black;
 }
