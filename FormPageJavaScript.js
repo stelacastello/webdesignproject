@@ -1,20 +1,17 @@
 document.getElementById("contactForm").addEventListener("submit", function(event){
-    event.preventDefault(); // Prevent form submission
-    // Get form data
+    event.preventDefault();
+	
+    //Get information for the form data
     var formData = new FormData(this);
     
-    // You can now send formData to your server using AJAX or any other method
-    // For demonstration purposes, we'll just log the form data to the console
+    //Sending information to formData
     for (var pair of formData.entries()) {
         console.log(pair[0]+ ': ' + pair[1]); 
     }
     
-    // Display submission message on the page
+    //Displaying the submission message on my page
     document.getElementById("submissionMessage").style.display = "block";
     
-    // Here, you can add code to send the form data to your server
-    // using AJAX or any other method
-    
-    // Reset form after submission
+    //Resetting the form after user's submission
     this.reset();
 });

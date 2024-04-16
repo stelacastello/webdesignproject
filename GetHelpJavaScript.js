@@ -1,3 +1,4 @@
+//Changing the Div box colour when user hoover the mouse on top
 function changeColor(element) {
     element.style.backgroundColor = '#dcf763';
 }
