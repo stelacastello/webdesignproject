@@ -205,6 +205,12 @@ color: rgb(219, 219, 219);
   height: auto;
 }
 
-#containerstela{
-padding:2%;
-}
+        #containerstela {
+            padding-bottom: 4%;
+            text-align: center;
+        }
+
+        #containerstela .row {
+            display: inline-block;
+        }
+
