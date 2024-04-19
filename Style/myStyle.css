@@ -220,6 +220,8 @@ color: rgb(219, 219, 219);
 }
 
 .contents{
+   position: relative;
   width: 100%;
-  height: auto;
+  height: 100%;
+  display: flex;
 }
