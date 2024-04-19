@@ -213,4 +213,13 @@ color: rgb(219, 219, 219);
         #containerstela .row {
             display: inline-block;
         }
+.rowshirley{
+	margin-top: 100px;
+  min-height: 100px;
+  justify-content: space-between;
+}
 
+.content{
+  width: 100%;
+  height: auto;
+}
