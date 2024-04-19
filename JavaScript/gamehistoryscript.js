@@ -37,11 +37,11 @@ function change1980(x,image)
 {
  if(x==1)
  {
-    image.src='../Photos/1980i.png';
+    image.src='./Photos/1980i.png';
  }
  if(x==2)
  {
-    image.src='../Photos/1980.png';
+    image.src='./Photos/1980.png';
  }
 }
 
@@ -51,11 +51,11 @@ function change1942(x,image)
 {
  if(x==1)
  {
-    image.src='../Photos/1942i.png';
+    image.src='./Photos/1942i.png';
  }
  if(x==2)
  {
-    image.src='../Photos/1942.png';
+    image.src='./Photos/1942.png';
  }
 }
 
@@ -63,11 +63,11 @@ function change1926(x,image)
 {
  if(x==1)
  {
-    image.src='../Photos/1926i.png';
+    image.src='./Photos/1926i.png';
  }
  if(x==2)
  {
-    image.src='../Photos/1926.png';
+    image.src='./Photos/1926.png';
  }
 }
 
@@ -75,11 +75,11 @@ function change1971(x,image)
 {
  if(x==1)
  {
-    image.src='../Photos/1971i.png';
+    image.src='./Photos/1971i.png';
  }
  if(x==2)
  {
-    image.src='../Photos/1971.png';
+    image.src='./Photos/1971.png';
  }
 }
 
@@ -87,11 +87,11 @@ function change1871(x,image)
 {
  if(x==1)
  {
-    image.src='../Photos/1871i.png';
+    image.src='./Photos/1871i.png';
  }
  if(x==2)
  {
-    image.src='../Photos/1871.png';
+    image.src='./Photos/1871.png';
  }
 }
 
@@ -99,10 +99,10 @@ function change1842(x,image)
 {
  if(x==1)
  {
-    image.src='../Photos/1842i.png';
+    image.src='./Photos/1842i.png';
  }
  if(x==2)
  {
-    image.src='../Photos/1842.png';
+    image.src='./Photos/1842.png';
  }
 }
