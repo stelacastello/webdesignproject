@@ -200,3 +200,7 @@ color: rgb(219, 219, 219);
     transform: rotate(360deg);
   }
 }
+.container {
+  width: 100%;
+  height: auto;
+}
