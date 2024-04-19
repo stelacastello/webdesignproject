@@ -1,5 +1,4 @@
-
-			function toggleText(id) {
+function toggleText(id) {
 			  var textElement = document.getElementById(id);
 			  if (textElement.style.display === "none") {
 				textElement.style.display = "block";
@@ -7,6 +6,7 @@
 				textElement.style.display = "none";
 			  }
 			}
+		
 		
         
     src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
