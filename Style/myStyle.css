@@ -162,3 +162,106 @@ color: rgb(219, 219, 219);
     background-color: #dcf763;
 	color: black;
 }
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+body {
+  background-color: #001324;
+  text-align: center;
+  color: #dcf763;
+  font-family: "MuseoModerno";
+  height: 100%;
+  max-height: 100%;
+  width: 100%;
+}
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.row {
+  margin-top: 100px;
+  min-height: 100px;
+  justify-content: space-between;
+}
+
+/* body text colour variations */
+.white-body {
+  font-family: "Work Sans";
+  color: #f7f7ff;
+  font-weight: 400;
+}
+.navy-body {
+  font-family: "Work Sans";
+  color: #dcf763;
+  font-weight: 400;
+  text-decoration: none;
+}
+h3 {
+  color: #f7f7ff;
+}
+/* links */
+a {
+  color: #f7f7ff;
+  text-decoration: none;
+  padding-right: 15px;
+}
+/* social media icons */
+.fa {
+  font-size: 30px;
+  width: 15px;
+  padding-right: 15px;
+  padding-left: 10px;
+  text-align: left;
+  text-decoration: none;
+  color: rgb(219, 219, 219);
+}
+
+.navbar {
+  padding: 2%;
+}
+.galnavbar {
+  padding: 2%;
+}
+
+.footer {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+  padding-right: 2%;
+  background-color: #a51080;
+}
+
+.show {
+  background-color: #a51080;
+  color: #141010;
+}
+@media screen and (max-width: 1200px) and (min-width: 600px);
+
+.containerSpin {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.spin-on-click {
+  cursor: pointer;
+  transition: transform 0.5s ease;
+}
+
+.spin-animation {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
