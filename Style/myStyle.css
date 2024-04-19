@@ -145,7 +145,7 @@ color: rgb(219, 219, 219);
 	border: 3px solid #a51080; 
 }
 
-.row{
+#rowstela{
 	margin-top:100px;
 	min-height:50px;
 	justify-content:space-between;	
