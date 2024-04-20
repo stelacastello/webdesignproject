@@ -231,6 +231,7 @@ color: rgb(219, 219, 219);
 .show {
   background-color: #a51080;
   color: #141010;
+	float: right;
 }
 .contents {
   width: 100%;
