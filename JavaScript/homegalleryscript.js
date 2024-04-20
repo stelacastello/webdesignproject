@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     spinText.addEventListener('click', function() {
         this.classList.toggle('spin-animation');
     });
-});
+
 function toggleText(id) {
 			  var textElement = document.getElementById(id);
 			  if (textElement.style.display === "none") {
