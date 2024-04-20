@@ -199,9 +199,9 @@ color: rgb(219, 219, 219);
 display: flex;
 justufy-content: space-between;
 }
-.rowshirl {
-  margin-top: 100px;
-  min-height: 100px;
-  justify-content: space-between;
+.welcome {
+	font-size: 5pw;
+	color: #001324;
+	text-transform: capitalize;
 }
-
+	
