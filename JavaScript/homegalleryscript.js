@@ -1,4 +1,4 @@
-document.getElementById('spinText').addEventListener('click', function() { this.classList.toggle('spin-animation');
+document.getElementById('spinText').addEventListener('click',function() { this.classList.toggle('spin-animation');
 });
 function toggleText(id) {
 			  var textElement = document.getElementById(id);
