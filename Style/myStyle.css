@@ -200,11 +200,11 @@ display: flex;
 justufy-content: space-between;
 }
 .welcome {
-	font-size: 5vw;
+	font-size: 20px;
 	color: #001324;
 	text-transform: capitalize;
 }
 	
 #spintext {
-font-size: 3vw;
+font-size: 15px;
 }
