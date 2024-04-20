@@ -4,7 +4,6 @@ h1 {
   font-family: "MuseoModerno";
   color: #a51080;
 }
-
 h2 {
   font-family: "Work Sans";
   color: #dcf763;
@@ -13,12 +12,10 @@ body {
   background-color: #f7f7ff;
   padding-bottom: 6%; 
 }
-
 p{
   margin-top:0.5%;
   margin-bottom:0.5%;
 }
-
 * {
   box-sizing: border-box;
 }
@@ -28,14 +25,11 @@ p{
   padding: 50px;
   color: white;
 }
-
 @media screen and (max-width: 1200px) and (min-width: 600px);
-
 .responsive {
   width: 100%;
   height: auto;
 }
-
 .container{
 	padding:2%;
 	max-width: 100%;
@@ -43,7 +37,6 @@ p{
 	margin: none;
 	height: auto;
 }
-
 .masthead{
   background-color: #001324;
   background-repeat:no-repeat;
@@ -51,9 +44,7 @@ p{
   background-position:center; 
   min-height:200vw;
 }
-
 /* heading text colour and size variations */
-
 .white-heading{
   text-transform: capitalize;
   font-size: 8vw;
@@ -71,7 +62,6 @@ p{
   font-weight:300;
   line-height: 0%;
 }
-
 /* body text colour variations */
 .white-body {
 font-family: "Work Sans";
@@ -100,14 +90,12 @@ text-align: left;
 text-decoration: none;
 color: rgb(219, 219, 219);
 }
-
 /* button */
 .image-btn{
   background: none;
   border: none;
   padding: 0;
 }
-
 /* navbar */
 .navbar{
  padding-right:2%;
@@ -115,7 +103,6 @@ color: rgb(219, 219, 219);
  padding-top:0%;
  padding-left:2%;
 }
-
 /* footer */
 .footer{
  position:fixed;
@@ -127,18 +114,14 @@ color: rgb(219, 219, 219);
  padding-top:2%;
  background-color: #a51080;
 }
-
 @font-face {
 	font-family: 'MuseoModerno';
-	src: url('../Style/Fonts/MuseoModerno-Black.ttf') format('truetype');
-	
+	src: url('../Style/Fonts/MuseoModerno-Black.ttf') format('truetype');	
 }
-
 @font-face {
 	font-family: 'Work Sans';
 	src: url('../Style/Fonts/WorkSans-Light.ttf') format('truetype');
 }
-
 .showtitle{
 	background-color:white;
 	color:black;
@@ -146,78 +129,62 @@ color: rgb(219, 219, 219);
     padding: 15px; 
     border-radius: 5px; 
 }
-
 #rowstela {
     margin-top: 50px; 
     min-height: 60px; 
     text-align: center;
 }
-
 #containerstela {
     padding: 20px; 
     border-radius: 8px; 
 	display: flex; 
     justify-content: center; 
 }
-
 #rowstelaorgs {
     margin-top: 50px; 
     min-height: 60px; 
     text-align: center;
 }
-
 #containerstelaorgs {
     padding: 20px; 
     border-radius: 8px; 
 	display: flex; 
     justify-content: center; 
 }
-
 #containerstelaorgs #rowstelaorgs .col-xs-12,
 #containerstelaorgs #rowstelaorgs .col-sm-6,
 #containerstelaorgs #rowstelaorgs .col-lg-2 {
     margin-bottom: 20px; 
 }
-
 .row{
 	margin-top:100px;
 	min-height:50px;
 	justify-content:space-between;	
 	text-align: center; 
 }
-
 .org-box {
     cursor: pointer;
     background-color: #ff2ecc;
     color: white;
     padding: 10px;
 }
-
 .org-box:hover {
     background-color: #dcf763;
 	color: black;
 }
-
-
-
-
 @media screen and (max-width: 1200px) and (min-width: 600px);
-
 .containerSpin {
   text-align: center;
   width: 100%;
   margin-top: 50px;
 }
-
 .spin-on-click {
   cursor: pointer;
   transition: transform 0.5s ease;
 }
-
 .spin-animation {
   animation: spin 1s linear infinite;
 }
-
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -226,7 +193,6 @@ color: rgb(219, 219, 219);
     transform: rotate(360deg);
   }
 }
-
 .show {
   background-color: #a51080;
   color: #141010;
