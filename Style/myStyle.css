@@ -231,9 +231,9 @@ color: rgb(219, 219, 219);
   background-color: #a51080;
   color: #141010;
 }
-.rowshirley {
-  float: inline-end;
+.rowshirl {
   margin-top: 100px;
   min-height: 100px;
   justify-content: space-between;
 }
+
