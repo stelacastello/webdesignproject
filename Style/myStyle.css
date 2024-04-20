@@ -198,9 +198,8 @@ color: rgb(219, 219, 219);
 	color: black;
 }
 
-.galnavbar {
-  padding: 2%;
-}
+
+
 
 @media screen and (max-width: 1200px) and (min-width: 600px);
 
@@ -239,6 +238,7 @@ color: rgb(219, 219, 219);
 }
 
 .rowshirley {
+  float: inline-end;
   margin-top: 100px;
   min-height: 100px;
   justify-content: space-between;
