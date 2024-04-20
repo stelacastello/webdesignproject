@@ -230,6 +230,8 @@ color: rgb(219, 219, 219);
 .show {
   background-color: #a51080;
   color: #141010;
+display: flex;
+justufy-content: space-between;
 }
 .rowshirl {
   margin-top: 100px;
