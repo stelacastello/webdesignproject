@@ -14,5 +14,5 @@ function toggleText(id) {
     src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
   
 
-document.getElementById('spinText').addEventListener('click', function() { this.classList.toggle('spin-animation');
+document.getElementById('spinText').addEventListener('click','DOMContentLoaded' function() { this.classList.toggle('spin-animation');
 });
