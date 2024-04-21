@@ -199,12 +199,10 @@ color: rgb(219, 219, 219);
 display: flex;
 justufy-content: space-between;
 }
-.welcome {
-	font-size: 20px;
+h3 {
+	font-size: 30px;
 	color: #001324;
 	text-transform: capitalize;
 }
 	
-#spintext {
-font-size: 15px;
-}
+
